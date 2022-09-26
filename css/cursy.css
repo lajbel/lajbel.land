@@ -1,0 +1,11 @@
+.wrapper {
+    cursor: url('https://lajbel.repl.co/images/cursor.png'), default;
+}
+
+.wrapper a {
+    cursor: url('https://lajbel.repl.co/images/pointer.png'), pointer;
+}
+
+.view_game_page .button {
+    cursor: url('https://lajbel.repl.co/images/pointer.png'), pointer;
+}

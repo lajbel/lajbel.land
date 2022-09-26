@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="cursor-landcur">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>lajbel.land</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <meta name="title" content="lajbel.land">
+    <meta name="description" content="game dev">
+    <meta name="theme-color" content="#6bc96c">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lajbel.land/">
+    <meta property="og:title" content="lajbel.land">
+    <meta property="og:description" content="game dev">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://lajbel.land">
+    <meta property="twitter:title" content="lajbel.land">
+    <meta property="twitter:description" content="game-dev">
+
+    <style>
+        a {
+            cursor: url(images/pointer.png), default;
+        }
+    </style>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    klee: "Klee One"
+                },
+                extend: {
+                    cursor: {
+                        'landcur': 'url("images/cursor.png"), default',
+                        'landpo': 'url("images/pointer.png"), pointer',
+                    }
+                }
+            },
+        };
+    </script>
+</head>
+
+<body class="box-border bg-blue-200 text-center w-screen h-screen">
+    <div class="flex flex-col justify-center items-center w-screen h-screen ">
+        <h1 class="flex justify-center"><img src="images/banner.png" alt="lajbel.land &nbsp;" /></h1>
+
+        <div class="flex justify-center mb-3">
+            <a href="https://lajbel.itch.io" target="_blank" class="mx-1.5 hover:-translate-y-1 duration-100"><img
+                    src="images/itchiologo.png" /></a>
+            <a href="https://twitter.com/lajbel_land" target="_blank"
+                class="mx-1.5 hover:-translate-y-1 duration-100"><img src="images/twitterlogo.png" /></a>
+            <a href="https://replit.com/@lajbel" target="_blank" class="mx-1.5 hover:-translate-y-1 duration-100"><img
+                    src="images/replitlogo.png" /></a>
+            <a href="https://patreon.com/lajbel" target="_blank" class="mx-1.5 hover:-translate-y-1 duration-100"><img
+                    src="images/patreonlogo.png" /></a>
+            <a href="https://lajbel.newgrounds.com" target="_blank" class="mx-1.5 hover:-translate-y-1 duration-100"><img
+                    src="images/newgroundslogo.png" /></a>
+        </div>
+
+        <section class="flex justify-center">
+            <a href="https://lajbel.itch.io/kanovel" target="_blank" class="hover:scale-110 duration-100"><img
+                    src="images/kanovelproduct.png" /></a>
+            <a href="https://lajbel.itch.io/the-juicy-edit" target="_blank" class="hover:scale-110 duration-100"><img
+                    src="images/tjeproduct.png" /></a>
+            <a href="https://markjam.repl.co" target="_blank" class="hover:scale-110 duration-100"><img
+                    src="images/markjamproduct.png" /></a>
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.header {
+    text-align: center;
+}
+
+.user_links {
+    text-align: center;
+}
+
+.user_page {
+    cursor: url('https://lajbel.repl.co/images/cursor.png'), default;
+}
+
+.user_page a {
+    cursor: url('https://lajbel.repl.co/images/pointer.png'), pointer;
+}
