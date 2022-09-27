@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="config.js"></script>
 
     <meta name="title" content="lajbel.land">
     <meta name="description" content="game dev">
@@ -31,22 +32,6 @@
             cursor: url(images/pointer.png), default;
         }
     </style>
-
-    <script>
-        tailwind.config = {
-            theme: {
-                fontFamily: {
-                    klee: "Klee One"
-                },
-                extend: {
-                    cursor: {
-                        'landcur': 'url("images/cursor.png"), default',
-                        'landpo': 'url("images/pointer.png"), pointer',
-                    }
-                }
-            },
-        };
-    </script>
 </head>
 
 <body class="box-border bg-blue-200 text-center w-screen h-screen">
